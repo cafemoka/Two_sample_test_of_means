@@ -1,4 +1,4 @@
-html header: <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=Tex-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=Tex-AMS-MML_HTMLorMML"></script>
 
 # Two sample test of means
 
@@ -100,4 +100,4 @@ If we have 10 samples: 5 samples in Group 1 and 5 samples in Group 2, we can't p
 The total number of cases that the ranks of 10 samples, 1, 2, ... ,10, are divided into two groups with five elements is nchoosek(10,5)/2, where nchoosek(10,5) is the number of combinations for 10 things taken 5 at a time. 
 The division by 2 is because the order of the groups is not important. 
 
-\\nchoosek(10,5) = \frac{10!}{5!5!}\\)
+$$nchoosek(10,5) = \frac{10!}{5!5!}$$ 
