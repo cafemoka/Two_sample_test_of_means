@@ -2,8 +2,6 @@
 
 # t test
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 Suppose we have midterm scores of five classes. Each class has 120 students. 
 We will test whether the score distributions of the first and second classes are the same by two sample t-test. 
 
