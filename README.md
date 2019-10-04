@@ -44,6 +44,12 @@ We can make our own codes as follows:
 
 ![ttest2_explanation](https://user-images.githubusercontent.com/54297018/66203766-250c3600-e6e4-11e9-91e7-6db8ae357fca.png)
 
+1. Set null hypothesis: mean(x) = mean(y) 
+2. Estimate test statistic t 
+   to estimate t, we need the number of samples, mean, standard deviation, and the total standard deviation. 
+3. Estimate the parameters of t distribution, nu 
+4. Estimate the p-value by using cumulative distribution function for Student's t distribution, 'tcdf' 
+
 ```Matlab
 % Let's make my own 'ttest2.m' 
 % 1. null hypothesis: mean(x) = mean(y) 
