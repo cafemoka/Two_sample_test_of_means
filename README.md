@@ -87,3 +87,15 @@ ans =
     0.9867    0.9867
     
 The p-values are the same. 
+
+
+# Wilcoxon rank sum test (Mann Whitney U test) 
+
+If we have the small number of samples and don't know the distribution of data, we can use Wilcoxon rank sum test for two sample test of means with null hypothesis, mean(x) = mean(y). 
+The Wilcoxon rank sum test uses the rank of the data. 
+
+If we have 10 samples: 5 samples in Group 1 and 5 samples in Group 2, we can't predict the exact samples in two groups that follows the null hypothesis, but we can predict the ranks of samples, for example, Group1={1, 3, 5, 7, 9} and Group2={2, 4, 6, 8, 10}. 
+The total number of cases that the ranks of 10 samples, 1, 2, ... ,10, are divided into two groups with five elements is nchoosek(10,5)/2, where nchoosek(10,5) is the number of combinations for 10 things taken 5 at a time. 
+The division by 2 is because the order of the groups is not important. 
+
+$nchoosek(10,5) = \frac{10!}{5!5!}$ 
